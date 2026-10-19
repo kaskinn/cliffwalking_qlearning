@@ -1,0 +1,20 @@
+{
+  "agent": "gamma_0.9",
+  "settings": {
+    "alpha": 0.1,
+    "gamma": 0.9,
+    "epsilon": 1.0,
+    "epsilon_decay": 0.995,
+    "epsilon_min": 0.05,
+    "episodes": 3000
+  },
+  "evaluation_episodes": 50,
+  "results": {
+    "agent": "gamma_0.9",
+    "mean_reward": -13.0,
+    "success_rate": 1.0,
+    "mean_steps": 13.0,
+    "mean_cliff_falls": 0.0,
+    "last_100_training_reward": -26.74
+  }
+}
